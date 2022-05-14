@@ -1,0 +1,22 @@
+.hero {
+  @include adaptiveValue("  padding-top", 130, 30);
+  &__container {
+    position: relative;
+  }
+
+  &__title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -16%;
+  }
+
+  &__img {
+    @include adaptiveValue("max-width", 1268, 320);
+  }
+
+  &__img img {
+    width: 100%;
+    object-fit: cover;
+  }
+}

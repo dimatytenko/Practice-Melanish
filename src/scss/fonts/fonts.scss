@@ -1,0 +1,29 @@
+@font-face {
+  font-family: NymphaTrial;
+  font-display: swap;
+  src: url("../fonts/NymphaTrial-Regular.woff2")
+      format("woff2"),
+    url("../fonts/NymphaTrial-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: SF Pro Display Medium;
+  font-display: swap;
+  src: url("../fonts/SF Pro Display Medium.woff2")
+      format("woff2"),
+    url("../fonts/SF Pro Display Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: SF Pro Display Regular;
+  font-display: swap;
+  src: url("../fonts/SF Pro Display Regular.woff2")
+      format("woff2"),
+    url("../fonts/SF Pro Display Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}

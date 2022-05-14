@@ -1,0 +1,46 @@
+// Заголовки, общие БЄМ блоки и проче...
+
+// title //
+.title {
+  @include adaptiveValue("font-size", 220, 55);
+  line-height: 1.18;
+  text-align: center;
+}
+// ================================= //
+
+// nav //
+.nav {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+  }
+
+  &__link {
+    font-family: $font_nav;
+    color: $color_header_text;
+    @include adaptiveValue("font-size", 18, 14);
+    line-height: 1.67;
+    text-transform: uppercase;
+    outline: none;
+    text-decoration: none;
+    background-image: linear-gradient(#ffffff, #ffffff);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size $transition_main;
+
+    &:hover,
+    &:focus {
+      background-size: 100% 2px;
+    }
+  }
+
+  &__img {
+    max-width: 172px;
+    padding: 0 10px;
+  }
+}
+// ================================= //
