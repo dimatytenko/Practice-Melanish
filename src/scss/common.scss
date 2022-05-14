@@ -21,7 +21,7 @@
   &__link {
     font-family: $font_nav;
     color: $color_header_text;
-    @include adaptiveValue("font-size", 18, 14);
+    @include adaptiveValue("font-size", 18, 10);
     line-height: 1.67;
     text-transform: uppercase;
     outline: none;

@@ -1,5 +1,6 @@
 .hero {
-  @include adaptiveValue("  padding-top", 130, 30);
+  @include adaptiveValue("padding-top", 130, 32);
+  @include adaptiveValue("padding-bottom", 93, 23);
   &__container {
     position: relative;
   }

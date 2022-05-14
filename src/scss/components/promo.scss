@@ -1,0 +1,53 @@
+.promo {
+  &__container {
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    @include adaptiveValue("gap", 88, 22);
+    @include adaptiveValue(" margin-bottom", 274, 70);
+  }
+  &__item {
+  }
+  &__profession {
+    font-family: $font_block;
+    @include adaptiveValue("font-size", 16, 10);
+    font-size: 16px;
+    line-height: 1.2;
+    color: $color_block_text;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  &__name {
+    @include adaptiveValue("font-size", 24, 10);
+    line-height: 1.2;
+    color: $color_block_text;
+    text-align: center;
+  }
+  &__img {
+    @include adaptiveValue("max-width", 1029, 250);
+
+    &:not(:last-child) {
+      @include adaptiveValue("margin-bottom", 200, 50);
+    }
+  }
+  &__img img {
+    width: 100%;
+    object-fit: cover;
+  }
+  &__wrapper-img-right {
+    position: relative;
+  }
+  &__title {
+    position: absolute;
+    z-index: -1;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $color_title_dark;
+  }
+  &__img--right {
+    margin-left: auto;
+    @include adaptiveValue("margin-bottom", 200, 50);
+  }
+}

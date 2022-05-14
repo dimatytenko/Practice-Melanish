@@ -1,8 +1,8 @@
 .header {
   &__container {
     padding: 0 20px;
-    @include adaptiveValue("padding-top", 54, 30);
-    @include adaptiveValue("padding-bottom", 230, 70);
+    @include adaptiveValue("padding-top", 54, 14);
+    @include adaptiveValue("padding-bottom", 230, 57);
   }
 }
 
