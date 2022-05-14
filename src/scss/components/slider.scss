@@ -1,0 +1,28 @@
+.slider {
+  &__container {
+    position: relative;
+    @include adaptiveValue("padding-top", 280, 70);
+    @include adaptiveValue("padding-bottom", 584, 146);
+  }
+
+  &__img {
+    @include adaptiveValue("max-width", 575.24, 143);
+    margin-left: auto;
+
+    &:not(:last-child) {
+      @include adaptiveValue("margin-bottom", 300, 75);
+    }
+  }
+
+  &__img img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__img--left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
