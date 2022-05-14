@@ -1,13 +1,9 @@
 .promo {
-  &__container {
-  }
   &__list {
     display: flex;
     justify-content: center;
     @include adaptiveValue("gap", 88, 22);
     @include adaptiveValue(" margin-bottom", 274, 70);
-  }
-  &__item {
   }
   &__profession {
     font-family: $font_block;
