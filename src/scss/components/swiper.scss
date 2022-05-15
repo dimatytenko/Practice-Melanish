@@ -1,0 +1,42 @@
+.swiper {
+  &__container {
+    position: relative;
+    @include adaptiveValue("padding-bottom", 440, 110);
+  }
+
+  &__list {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__item {
+  }
+
+  &__title {
+  }
+
+  &__title--mod {
+    color: transparent;
+    -webkit-text-stroke: 0.8px #8d8d8d;
+  }
+}
+.swip {
+  &__wrapper {
+  }
+
+  &__slide {
+    @include adaptiveValue("max-width", 540, 135);
+    @include adaptiveValue(" margin-left", 250, 62);
+    @include adaptiveValue("margin-right", 100, 25);
+  }
+
+  &__slide img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
