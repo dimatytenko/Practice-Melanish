@@ -10,21 +10,12 @@
     transform: translateX(-50%);
   }
 
-  &__item {
-  }
-
-  &__title {
-  }
-
   &__title--mod {
     color: transparent;
     -webkit-text-stroke: 0.8px #8d8d8d;
   }
 }
 .swip {
-  &__wrapper {
-  }
-
   &__slide {
     @include adaptiveValue("max-width", 540, 135);
     @include adaptiveValue(" margin-left", 250, 62);
@@ -35,8 +26,4 @@
     width: 100%;
     object-fit: cover;
   }
-}
-.swiper-wrapper {
-}
-.swiper-slide {
 }
